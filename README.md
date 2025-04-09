@@ -64,7 +64,7 @@ This dataset includes reviews from the following mental health apps:
 Please note that some LLM predictions are missing due to errors encountered during the experiments. In some cases, the models returned unexpected outputs such as bracketed numbers, lengthy explanations, or error messages.
 
 ## License  
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md)  file for details
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)  file for details
 
 ## Contact  
 For questions, reach out to Kyle Wang at kylewang@udel.edu
