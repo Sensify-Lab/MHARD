@@ -18,15 +18,15 @@ Each record in the dataset includes original user-written reviews, ratings, deve
 
 ### LLM-Based Predictions:
 - `pred_gpt3.5instruct`: Prediction from GPT-3.5 Instruct  
-- `pred_gpt35turbo`: Prediction from GPT-3.5 Turbo  
+- `pred_gpt3.5turbo`: Prediction from GPT-3.5 Turbo  
 - `pred_gpt4`: Prediction from GPT-4  
-- `pred_gemini15flash`: Prediction from Gemini 1.5 Flash  
-- `pred_gemini15pro`: Prediction from Gemini 1.5 Pro  
-- `pred_llama31_8b`: Prediction from LLaMA 3.1 (8B)  
-- `pred_llama33_70b`: Prediction from LLaMA 3.3 (70B)  
+- `pred_gemini1.5flash`: Prediction from Gemini 1.5 Flash  
+- `pred_gemini1.5pro`: Prediction from Gemini 1.5 Pro  
+- `pred_llama3.1_8b`: Prediction from LLaMA 3.1 (8B)  
+- `pred_llama3.3_70b`: Prediction from LLaMA 3.3 (70B)  
 
 ## Citation  
-If you use this dataset, please cite the corresponding paper:
+If you use this dataset or it has informed your work, we kindly ask that you cite the corresponding paper to acknowledge and support our research efforts.
 
 > *[Pending]*
 
@@ -40,13 +40,14 @@ This dataset includes reviews from the following mental health apps:
 `amaha`, `anxietyrelief`, `anxietytest`, `bearable`, `besthelp`, `blockapp`, `breathball`, `breeze`, `calm`, `cbtguide`, `cbttools`, `cerebral`, `chiku`, `clarity`, `constant`, `dailybean`, `dare`, `daylio`, `digitalwellbeing`, `evolve`, `fabulous`, `feelbetter`, `finch`, `gratitude`, `happify`, `headspace`, `healthily`, `healthyminds`, `heyy`, `iam`, `ifeel`, `intellect`, `minddiagnostics`, `minddoc`, `mindease`, `mindshift`, `mindshine`, `moodflow`, `moodpress`, `moodspace`, `moodtools`, `moodtracker`, `mypossibleself`, `norbu`, `pixels`, `reflectly`, `reflexio`, `regain`, `remente`, `rootd`, `roubit`, `sanvello`, `sevencups`, `sharecare`, `sparkle`, `stoppanic`, `stressscan`, `talklife`, `talkspace`, `teencounseling`, `thrive`, `tochi`, `twentyninek`, `unwinding`, `up`, `voice`, `voidpet`, `vos`, `welltory`, `whatsup`, `woebot`, `wysa`, `youper`
 
 ## Sample Data  
-|index|UID|app\_name|rating|date|review|review\_cleaned|likes|response\_date|response|pred\_gpt3\.5instruct|pred\_gpt35turbo|pred\_gpt4|pred\_gemini15flash|pred\_gemini15pro|pred\_llama31\_8b|pred\_llama33\_70b|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|0|74492|calm|5|July 22, 2020|I use this for my children and myself\. They love to listen to the stories while they go to bed\. And I love the constant reminders throughout the day to just simply breath\!|use child love listen story go bed love constant reminder throughout day simply breath|0|NaN|NaN|5|5|5|4|5|5|5|
-|1|168281|dare|5|August 02, 2021|I felt an upcoming anxiety attack rising and I wasn't near anyone who I'm close/comfortable with or understands what I deal with in my head\. I downloaded this app and pressed on the anxiety button and all I needed was the speakers voice to help me feel better and human again\. He explained what I feel so well and then reassuring me that I was safe and completely normal made me feel whole, like a person\. Anyone out there dealing with this, you are so very strong, keep your head up\! 💕🙌|felt upcoming anxiety attack rising wasnt near anyone im closecomfortable understands deal head downloaded app pressed anxiety button needed speaker voice help feel better human explained feel well reassuring safe completely normal made feel whole like person anyone dealing strong keep head|8|August 02, 2021|Thank you so much for your review, Diana\! It really helps us to keep going and delivering the best\. Please recommend our app to your friends, and don’t hesitate to shoot us a note at support@dareresponse\.com if you have any questions\. We would love to hear from you\!|5|5|5|5|5|5|5|
-|2|176561|gratitude|5|November 21, 2020|I've definitely enjoyed the mindset change and positive impact journaling about what I'm grateful for has had\. The new challenges have helped keep things fresh and opened my eyes to topics I've never considered before\.|ive definitely enjoyed mindset change positive impact journaling im grateful new challenge helped keep thing fresh opened eye topic ive never considered|0|December 29, 2020|Hey Erin, thank you for the 5 stars\! We're happy to know that you love the app :\) So glad that Gratitude brings a pleasant experience to you\. Thank you for being a part of this\. We send our best wishes\. Have a great day\!|5|5|5|5|5|5|5|
-|3|43238|headspace|4|July 27, 2021|I like that it gives you new meditates daily and a 'wakeup' feature for better wellbeing\. I dont love that you have to subscribe for the app, though, as I'm a poor college student\. Other than that, I like that all your daily meditations are in one place\.|like give new meditates daily wakeup feature better wellbeing dont love subscribe app though im poor college student like daily meditation one place|1|NaN|NaN|4|4|4|4|4|4|4|
-|4|123823|moodpress|5|January 03, 2023|Nice 👍 I'm going to use it every day for my mood tacker for 2023|nice im going use every day mood tacker|0|NaN|NaN|5|5|5|4|5|5|5|
+
+|UID|app\_name|rating|date|review|review\_cleaned|likes|response\_date|response|pred\_gpt3\.5instruct|pred\_gpt3\.5turbo|pred\_gpt4|pred\_gemini1\.5flash|pred\_gemini1\.5pro|pred\_llama3\.1\_8b|pred\_llama3\.3\_70b|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|74492|calm|5|July 22, 2020|I use this for my children and myself\. They love to listen to the stories while they go to bed\. And I love the constant reminders throughout the day to just simply breath\!|use child love listen story go bed love constant reminder throughout day simply breath|0|NaN|NaN|5|5|5|4|5|5|5|
+|168281|dare|5|August 02, 2021|I felt an upcoming anxiety attack rising and I wasn't near anyone who I'm close/comfortable with or understands what I deal with in my head\. I downloaded this app and pressed on the anxiety button and all I needed was the speakers voice to help me feel better and human again\. He explained what I feel so well and then reassuring me that I was safe and completely normal made me feel whole, like a person\. Anyone out there dealing with this, you are so very strong, keep your head up\! 💕🙌|felt upcoming anxiety attack rising wasnt near anyone im closecomfortable understands deal head downloaded app pressed anxiety button needed speaker voice help feel better human explained feel well reassuring safe completely normal made feel whole like person anyone dealing strong keep head|8|August 02, 2021|Thank you so much for your review, Diana\! It really helps us to keep going and delivering the best\. Please recommend our app to your friends, and don’t hesitate to shoot us a note at support@dareresponse\.com if you have any questions\. We would love to hear from you\!|5|5|5|5|5|5|5|
+|176561|gratitude|5|November 21, 2020|I've definitely enjoyed the mindset change and positive impact journaling about what I'm grateful for has had\. The new challenges have helped keep things fresh and opened my eyes to topics I've never considered before\.|ive definitely enjoyed mindset change positive impact journaling im grateful new challenge helped keep thing fresh opened eye topic ive never considered|0|December 29, 2020|Hey Erin, thank you for the 5 stars\! We're happy to know that you love the app :\) So glad that Gratitude brings a pleasant experience to you\. Thank you for being a part of this\. We send our best wishes\. Have a great day\!|5|5|5|5|5|5|5|
+|43238|headspace|4|July 27, 2021|I like that it gives you new meditates daily and a 'wakeup' feature for better wellbeing\. I dont love that you have to subscribe for the app, though, as I'm a poor college student\. Other than that, I like that all your daily meditations are in one place\.|like give new meditates daily wakeup feature better wellbeing dont love subscribe app though im poor college student like daily meditation one place|1|NaN|NaN|4|4|4|4|4|4|4|
+|123823|moodpress|5|January 03, 2023|Nice 👍 I'm going to use it every day for my mood tacker for 2023|nice im going use every day mood tacker|0|NaN|NaN|5|5|5|4|5|5|5|
 
 
 
