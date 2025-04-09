@@ -25,6 +25,14 @@ Each record in the dataset includes original user-written reviews, ratings, deve
 - `pred_llama3.1_8b`: Prediction from LLaMA 3.1 (8B)  
 - `pred_llama3.3_70b`: Prediction from LLaMA 3.3 (70B)  
 
+## Available Files
+
+### [MHARD_dataset.csv](./MHARD_dataset.csv)  
+This is the **full dataset** containing 200,973 user reviews collected from 73 mental health apps on the Google Play Store
+
+### [MHARD_dataset_sample.csv](./MHARD_dataset_sample.csv)  
+This is a **random sample of 100 entries** selected from the full dataset. It is intended for quick exploration, testing, or demonstration purposes. The structure and features are identical to the full dataset.
+
 ## Citation  
 If you use this dataset or it has informed your work, we kindly ask that you cite the corresponding paper to acknowledge and support our research efforts.
 
@@ -56,7 +64,7 @@ This dataset includes reviews from the following mental health apps:
 Please note that some LLM predictions are missing due to errors encountered during the experiments. In some cases, the models returned unexpected outputs such as bracketed numbers, lengthy explanations, or error messages.
 
 ## License  
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md)  file for details
 
 ## Contact  
 For questions, reach out to Kyle Wang at kylewang@udel.edu
