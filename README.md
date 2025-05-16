@@ -66,3 +66,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 ## Contact  
 For questions, reach out to Kyle Wang at kylewang@udel.edu or Moath Erqsous at merqsous@udel.edu
+
+<meta name="google-site-verification" content="yncGl8AU0GegrSXfG3Zvv1FLlRDnIITpLXTW7ravstk" />
