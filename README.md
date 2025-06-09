@@ -36,7 +36,7 @@ This is a **random sample of 100 entries** selected from the full dataset. It is
 ## Citation  
 If you use this dataset or it has informed your work, we kindly ask that you cite the corresponding paper to acknowledge and support our research efforts.
 
-> *[Pending]*
+Wang, Q., Erqsous, M., Khatiwada, P., Karwankar, A., Alhassan, F. M., Chandrasekaran, A., Abraham, B., Lovell, F., Ngo, A. A., & Mauriello, M. L. (2025). Leveraging Large Language Models for Review Classification and Rating Estimation of Mental Health Applications. *Proceedings of the International AAAI Conference on Web and Social Media, 19(1)*, 2017-2029. https://doi.org/10.1609/icwsm.v19i1.35916
 
 
 
