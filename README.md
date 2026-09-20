@@ -1,7 +1,14 @@
 # MHARD – Mental Health App Reviews Dataset
 
+[![Published paper](https://img.shields.io/badge/Published-Paper-2ea44f?logo=readthedocs&logoColor=white)](https://doi.org/10.1609/icwsm.v19i1.35916)
+[![Zenodo](https://img.shields.io/badge/Zenodo-21970648-1682D4?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22863690)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## Overview  
 The Mental Health App Reviews Dataset (MHARD) contains user reviews from 73 mental health apps on the Google Play Store, collected using the SerpAPI tool. The dataset includes **200,972** reviews posted between **March 29, 2011** and **July 11, 2023** from apps with over 100k downloads. It is designed to support research in user experience, sentiment analysis, app evaluation, and human-AI collaboration.
+
+## Data Access
+MHARD is available both in this repository and as a citable archived release on [Zenodo](https://doi.org/10.5281/zenodo.22863690). The Zenodo record provides a persistent DOI for referencing the dataset in publications, course projects, and downstream research.
 
 ## Data Features  
 Each record in the dataset includes original user-written reviews, ratings, developer responses, and AI-generated rating predictions from multiple large language models (LLMs). Below is a summary of key features:
@@ -38,7 +45,10 @@ If you use this dataset or it has informed your work, we kindly ask that you cit
 
 Wang, Q., Erqsous, M., Khatiwada, P., Karwankar, A., Alhassan, F. M., Chandrasekaran, A., Abraham, B., Lovell, F., Ngo, A. A., & Mauriello, M. L. (2025). Leveraging Large Language Models for Review Classification and Rating Estimation of Mental Health Applications. *Proceedings of the International AAAI Conference on Web and Social Media, 19(1)*, 2017-2029. https://doi.org/10.1609/icwsm.v19i1.35916
 
+### Dataset Archive
 
+A preserved release of the dataset is available on Zenodo:  
+https://doi.org/10.5281/zenodo.22863690
 
 
 ## Included Apps
